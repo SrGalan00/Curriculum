@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header h1 {
+    color: #333;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+main section {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000; /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+main section h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+footer a img {
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer a img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
